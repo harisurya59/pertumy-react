@@ -1,0 +1,51 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+div ul{
+    display: flex;
+    gap: 10px;
+}
+li{
+    list-style: none;
+}
+
+.search{
+    text-align: center;
+    margin: 40px;
+}
+
+.search input{
+  width: 70%;
+  height: 30px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.img1{
+    width: 20%;
+    border: solid 2px black;
+    height: fit-content;
+    text-align: center;
+}
+
+.img1 p:hover{
+    background-color:black;
+    color: white;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
+.Contact{
+    text-align: center;
+}
